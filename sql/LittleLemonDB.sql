@@ -63,12 +63,30 @@ ENGINE = InnoDB;
 
 
 -- -----------------------------------------------------
+-- Table `LittleLemonDB`.`StaffInformation`
+-- -----------------------------------------------------
+CREATE TABLE IF NOT EXISTS `LittleLemonDB`.`StaffInformation` (
+  `StaffID` VARCHAR(45) NOT NULL,
+  `StaffName` VARCHAR(45) NULL,
+  `Role` VARCHAR(45) NULL,
+  `Email` VARCHAR(45) NULL,
+  `Salary` DECIMAL NULL,
+  `ContactNumber` VARCHAR(45) NULL,
+  `Country` VARCHAR(45) NULL,
+  `City` VARCHAR(45) NULL,
+  `PostalCode` VARCHAR(45) NULL,
+  PRIMARY KEY (`StaffID`))
+ENGINE = InnoDB;
+
+
+-- -----------------------------------------------------
 -- Table `LittleLemonDB`.`Orders`
 -- -----------------------------------------------------
 CREATE TABLE IF NOT EXISTS `LittleLemonDB`.`Orders` (
   `OrderID` VARCHAR(45) NOT NULL,
   `MenuID` VARCHAR(45) NULL,
   `CustomerID` VARCHAR(45) NULL,
+  `StaffID` VARCHAR(45) NULL,
   `OrderDate` DATE NULL,
   `TableNumber` INT NULL,
   `Quantity` INT NULL,
@@ -76,6 +94,7 @@ CREATE TABLE IF NOT EXISTS `LittleLemonDB`.`Orders` (
   PRIMARY KEY (`OrderID`),
   INDEX `cus_id_in_order_tab_idx` (`CustomerID` ASC) VISIBLE,
   INDEX `menuid_in_order_tab_idx` (`MenuID` ASC) VISIBLE,
+  INDEX `staffid_in_order_tab_idx` (`StaffID` ASC) VISIBLE,
   CONSTRAINT `cus_id_in_order_tab`
     FOREIGN KEY (`CustomerID`)
     REFERENCES `LittleLemonDB`.`Customers` (`CustomerID`)
@@ -84,6 +103,11 @@ CREATE TABLE IF NOT EXISTS `LittleLemonDB`.`Orders` (
   CONSTRAINT `menuid_in_order_tab`
     FOREIGN KEY (`MenuID`)
     REFERENCES `LittleLemonDB`.`Menu` (`MenuID`)
+    ON DELETE CASCADE
+    ON UPDATE CASCADE,
+  CONSTRAINT `staffid_in_order_tab`
+    FOREIGN KEY (`StaffID`)
+    REFERENCES `LittleLemonDB`.`StaffInformation` (`StaffID`)
     ON DELETE CASCADE
     ON UPDATE CASCADE)
 ENGINE = InnoDB;
@@ -130,23 +154,6 @@ CREATE TABLE IF NOT EXISTS `LittleLemonDB`.`OrderDeliveryStatus` (
     REFERENCES `LittleLemonDB`.`Customers` (`CustomerID`)
     ON DELETE CASCADE
     ON UPDATE CASCADE)
-ENGINE = InnoDB;
-
-
--- -----------------------------------------------------
--- Table `LittleLemonDB`.`StaffInformation`
--- -----------------------------------------------------
-CREATE TABLE IF NOT EXISTS `LittleLemonDB`.`StaffInformation` (
-  `StaffID` VARCHAR(45) NOT NULL,
-  `FullName` VARCHAR(45) NULL,
-  `Role` VARCHAR(45) NULL,
-  `Email` VARCHAR(45) NULL,
-  `ContactNumber` VARCHAR(45) NULL,
-  `Salary` DECIMAL NULL,
-  `Country` VARCHAR(45) NULL,
-  `City` VARCHAR(45) NULL,
-  `PostalCode` VARCHAR(45) NULL,
-  PRIMARY KEY (`StaffID`))
 ENGINE = InnoDB;
 
 

@@ -1,0 +1,73 @@
+MenuID,MenuName,Cuisine,ItemID,Price
+"1","Falafel Greek salad Tapas Greek yoghurt Athen","Greek","1",190
+"2","Falafel Kabasa Meatballs Turkish yoghurt Anka","Greek","2",320
+"3","Falafel Pizza Bruschetta Cheesecake Italian C","Greek","3",52.08
+"4","Flatbread Greek salad Tapas Greek yoghurt Ath","Greek","4",144.09
+"5","Flatbread Kabasa Meatballs Turkish yoghurt An","Greek","5",75
+"6","Flatbread Pizza Bruschetta Cheesecake Italian","Greek","6",125
+"7","Hummus Greek salad Tapas Greek yoghurt Athens","Greek","7",320
+"8","Hummus Kabasa Meatballs Turkish yoghurt Ankar","Greek","8",91.84
+"9","Hummus Pizza Bruschetta Cheesecake Italian Co","Greek","9",310
+"10","Minestrone Greek salad Tapas Greek yoghurt At","Greek","10",125
+"11","Minestrone Kabasa Meatballs Turkish yoghurt A","Greek","11",125
+"12","Minestrone Pizza Bruschetta Cheesecake Italia","Greek","12",190
+"13","Olives Greek salad Tapas Greek yoghurt Athens","Greek","13",125
+"14","Olives Kabasa Meatballs Turkish yoghurt Ankar","Greek","14",93.13
+"15","Olives Pizza Bruschetta Cheesecake Italian Co","Greek","15",320
+"16","Tomato bread Greek salad Tapas Greek yoghurt","Greek","16",69.38
+"17","Tomato bread Kabasa Meatballs Turkish yoghurt","Greek","17",190
+"18","Tomato bread Pizza Bruschetta Cheesecake Ital","Greek","18",69.38
+"19","Falafel Bean soup Potato salad Ice cream Corf","Italian","19",119.8
+"20","Falafel Carbonara Focaccia Affogato Roma Red","Italian","20",119.8
+"21","Falafel Greek salad Tapas Greek yoghurt Athen","Italian","1",75
+"22","Falafel Kabasa Meatballs Turkish yoghurt Anka","Italian","2",168.27
+"23","Falafel Pizza Bruschetta Cheesecake Italian C","Italian","3",75
+"24","Falafel Shwarma Fries Baklava Turkish Coffee","Italian","21",98
+"25","Flatbread Bean soup Potato salad Ice cream Co","Italian","22",235
+"26","Flatbread Carbonara Focaccia Affogato Roma Re","Italian","23",210
+"27","Flatbread Greek salad Tapas Greek yoghurt Ath","Italian","4",52.08
+"28","Flatbread Kabasa Meatballs Turkish yoghurt An","Italian","5",52.08
+"29","Flatbread Pizza Bruschetta Cheesecake Italian","Italian","6",310
+"30","Flatbread Shwarma Fries Baklava Turkish Coffe","Italian","24",44.57
+"31","Hummus Bean soup Potato salad Ice cream Corfu","Italian","25",98
+"32","Hummus Carbonara Focaccia Affogato Roma Red w","Italian","26",83.99
+"33","Hummus Greek salad Tapas Greek yoghurt Athens","Italian","7",168.27
+"34","Hummus Kabasa Meatballs Turkish yoghurt Ankar","Italian","8",125
+"35","Hummus Pizza Bruschetta Cheesecake Italian Co","Italian","9",125
+"36","Hummus Shwarma Fries Baklava Turkish Coffee","Italian","27",210
+"37","Minestrone Bean soup Potato salad Ice cream C","Italian","28",101.6
+"38","Minestrone Carbonara Focaccia Affogato Roma R","Italian","29",235
+"39","Minestrone Greek salad Tapas Greek yoghurt At","Italian","10",91.84
+"40","Minestrone Kabasa Meatballs Turkish yoghurt A","Italian","11",310
+"41","Minestrone Pizza Bruschetta Cheesecake Italia","Italian","12",75
+"42","Minestrone Shwarma Fries Baklava Turkish Coff","Italian","30",220
+"43","Olives Bean soup Potato salad Ice cream Corfu","Italian","31",210
+"44","Olives Carbonara Focaccia Affogato Roma Red w","Italian","32",133.17
+"45","Olives Greek salad Tapas Greek yoghurt Athens","Italian","13",310
+"46","Olives Kabasa Meatballs Turkish yoghurt Ankar","Italian","14",69.38
+"47","Olives Pizza Bruschetta Cheesecake Italian Co","Italian","15",69.38
+"48","Olives Shwarma Fries Baklava Turkish Coffee","Italian","33",133.17
+"49","Tomato bread Bean soup Potato salad Ice cream","Italian","34",235
+"50","Tomato bread Carbonara Focaccia Affogato Roma","Italian","35",98
+"51","Tomato bread Greek salad Tapas Greek yoghurt","Italian","16",320
+"52","Tomato bread Kabasa Meatballs Turkish yoghurt","Italian","17",75
+"53","Tomato bread Pizza Bruschetta Cheesecake Ital","Italian","18",93.13
+"54","Tomato bread Shwarma Fries Baklava Turkish Co","Italian","36",235
+"55","Falafel Bean soup Potato salad Ice cream Corf","Turkish","19",210
+"56","Falafel Carbonara Focaccia Affogato Roma Red","Turkish","20",44.57
+"57","Falafel Shwarma Fries Baklava Turkish Coffee","Turkish","21",220
+"58","Flatbread Bean soup Potato salad Ice cream Co","Turkish","22",225
+"59","Flatbread Carbonara Focaccia Affogato Roma Re","Turkish","23",119.8
+"60","Flatbread Shwarma Fries Baklava Turkish Coffe","Turkish","24",119.8
+"61","Hummus Bean soup Potato salad Ice cream Corfu","Turkish","25",220
+"62","Hummus Carbonara Focaccia Affogato Roma Red w","Turkish","26",220
+"63","Hummus Shwarma Fries Baklava Turkish Coffee","Turkish","27",101.6
+"64","Minestrone Bean soup Potato salad Ice cream C","Turkish","28",83.99
+"65","Minestrone Carbonara Focaccia Affogato Roma R","Turkish","29",225
+"66","Minestrone Shwarma Fries Baklava Turkish Coff","Turkish","30",83.99
+"67","Olives Bean soup Potato salad Ice cream Corfu","Turkish","31",119.8
+"68","Olives Carbonara Focaccia Affogato Roma Red w","Turkish","32",235
+"69","Olives Shwarma Fries Baklava Turkish Coffee","Turkish","33",124.62
+"70","Tomato bread Bean soup Potato salad Ice cream","Turkish","34",133.17
+"71","Tomato bread Carbonara Focaccia Affogato Roma","Turkish","35",220
+"72","Tomato bread Shwarma Fries Baklava Turkish Co","Turkish","36",225

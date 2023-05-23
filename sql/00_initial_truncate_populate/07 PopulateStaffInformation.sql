@@ -1,0 +1,36 @@
+use littlelemondb;
+SET foreign_key_checks = 0;
+
+select * from staffinformation;
+
+insert into staffinformation(StaffID, StaffName, Role, Email, Salary, ContactNumber, Country, City, PostalCode) 
+values(1, 'Laney Fadden', 'General Manager', 'laney.fadden@yahoo.com', 75000, 7151259193, 'USA', 'New York City', '993-0031')
+,(2, 'Giacopo Bramich', 'Assistant Manager', 'giacopo.bramich@yahoo.com', 40000, 4529581905, 'USA', 'Buffalo', 216282)
+,(3, 'Lia Bonar', 'Executive Chef', 'lia.bonar@yahoo.com', 50000, 4082669678, 'USA', 'Rochester', 663246)
+,(4, 'Merrill Baudon', 'Sous chef', 'merrill.baudon@yahoo.com', 40000, 1477803698, 'USA', 'Yonkers', '987-0352')
+,(5, 'Tasia Fautly', 'Pastry Chef', 'tasia.fautly@yahoo.com', 35000, 8639077214, 'USA', 'Syracuse', '351 01')
+,(6, 'Angel Veschambre', 'Kitchen Manager', 'angel.veschambre@yahoo.com', 30000, 8234644360, 'USA', 'Albany', 93995)
+,(7, 'Sheilah Maestro', 'Food & Beverages Manager', 'sheilah.maestro@yahoo.com', 30000, 1300510239, 'USA', 'New Rochelle', 641360)
+,(8, 'Audie Willcocks', 'Line Cook', 'audie.willcocks@yahoo.com', 15000, 8486615320, 'USA', 'Mount Vernon', '3810-760')
+,(9, 'Mart Malsher', 'Fast Food Cook', 'mart.malsher@yahoo.com', 12000, 8455125855, 'USA', 'Schenectady', 692769)
+,(10, 'Magdalen Lacheze', 'Short Order Cook', 'magdalen.lacheze@yahoo.com', 16000, 3070704902, 'USA', 'Utica', '649-6326')
+,(11, 'Margarita Mancktelow', 'Prep Cook', 'margarita.mancktelow@yahoo.com', 15000, 8937341837, 'USA', 'White Plains', 33619)
+,(12, 'Ashil Brogini', 'Sommelier', 'ashil.brogini@yahoo.com', 30000, 2886779309, 'USA', 'Hempstead', '649-6326')
+,(13, 'Arthur Mathewson', 'Server', 'arthur.mathewson@yahoo.com', 12000, 7975918461, 'USA', 'Troy', 353715)
+,(14, 'Ennis Dungate', 'Runner', 'ennis.dungate@yahoo.com', 15000, 9081670817, 'USA', 'Niagara Falls', '351 01')
+,(15, 'Tiffani Halstead', 'Busser', 'tiffani.halstead@yahoo.com', 10000, 7523733384, 'USA', 'Binghamton', 353715)
+,(16, 'Roddie Winterbotham', 'Host', 'roddie.winterbotham@yahoo.com', 12000, 8411911113, 'USA', 'Freeport', 910008)
+,(17, 'Pincas Stearn', 'Bartender', 'pincas.stearn@yahoo.com', 10000, 9636553989, 'USA', 'Kiryas Joel', 33619)
+,(18, 'Tony Crabtree', 'Barback', 'tony.crabtree@yahoo.com', 10000, 1647086542, 'USA', 'Valley Stream', '993-0032')
+,(19, 'Tamarah Filasov', 'Barista', 'tamarah.filasov@yahoo.com', 12000, 8398278891, 'USA', 'Long Beach', 1110210)
+,(20, 'Pen Pruce', 'Drive-thru Operator', 'pen.pruce@yahoo.com', 10000, 7511171506, 'USA', 'Spring Valley', 1557174)
+,(21, 'Boot Burree', 'Cashier', 'boot.burree@yahoo.com', 10000, 1432886344, 'USA', 'Poughkeepsie', '987-0353')
+,(22, 'Sabra Calbreath', 'Dishwasher', 'sabra.calbreath@yahoo.com', 8000, 8400241430, 'USA', 'Rome', '352 01')
+,(23, 'Obidiah Zanicchi', 'Cook', 'obidiah.zanicchi@yahoo.com', 12000, 9322533781, 'USA', 'Ithaca', 1188725)
+,(24, 'Anders Stowe', 'Cook', 'anders.stowe@yahoo.com', 12000, 6934011544, 'USA', 'Middletown', 1736090)
+,(25, 'Locke Janaway', 'Server', 'locke.janaway@yahoo.com', 12000, 6132885973, 'USA', 'Port Chester', '3810-761')
+,(26, 'Kaylyn Colebourne', 'Server', 'kaylyn.colebourne@yahoo.com', 12000, 5609939034, 'USA', 'North Tonawanda', 692770)
+,(27, 'Noni Quickenden', 'Busser', 'noni.quickenden@yahoo.com', 10000, 4938017613, 'USA', 'Harrison', '649-6327')
+,(28, 'Alan Paskell', 'Dishwasher', 'alan.paskell@yahoo.com', 8000, 9366136701, 'USA', 'Newburgh', 33620)
+,(29, 'Anny Pattemore', 'Server', 'anny.pattemore@yahoo.com', 12000, 9939916191, 'USA', 'Saratoga Springs', '649-6327')
+,(30, 'Les Harmson', 'Barista', 'les.harmson@yahoo.com', 12000, 4027438544, 'USA', 'Jamestown', 353716);
