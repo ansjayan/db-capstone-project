@@ -1,6 +1,6 @@
 use littlelemondb;
 
-select   c.FullName, c.Email, c.ContactNumber, a.City, a.PostalCode, a.Country , o.Cost
+select c.FullName, c.Email, c.ContactNumber, a.City, a.PostalCode, a.Country , o.Cost
 from orders as o
 inner join customers as c
 on o.CustomerID = c.CustomerID

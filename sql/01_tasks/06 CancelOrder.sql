@@ -1,14 +1,12 @@
-SET SQL_SAFE_UPDATES = 0;
-
 use littlelemondb;
 
+drop procedure if exists CancelOrder;
 delimiter //
-create procedure CancelOrder(in orderid int)
+create procedure CancelOrder(in orid int)
 begin 
-delete from orders where OrderID = orderid;
-delete from orderdeliverystatus where OrderID = orderid;
-select concat('Order ', orderid, ' is cancelled') as Confirmation;
+delete from orders where OrderID = orid;
+select concat('Order ', orid, ' is cancelled') as Confirmation;
 end //
 
 delimiter ;
-call CancelOrder(5)
+call CancelOrder(99)

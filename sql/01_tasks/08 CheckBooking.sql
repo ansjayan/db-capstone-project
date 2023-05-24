@@ -1,5 +1,6 @@
 use littlelemondb;
 
+drop procedure if exists CheckBooking;
 delimiter //
 create procedure CheckBooking(in bookdate varchar(45), in tableno int)
 begin

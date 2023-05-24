@@ -1,5 +1,6 @@
 use littlelemondb;
 
+drop procedure if exists CancelBooking;
 delimiter //
 create procedure CancelBooking(in bookid int)
 begin

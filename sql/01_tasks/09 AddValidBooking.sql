@@ -1,5 +1,6 @@
 use littlelemondb;
-SET FOREIGN_KEY_CHECKS=0;
+
+drop procedure if exists AddValidBooking;
 delimiter //
 
 create procedure AddValidBooking(in booking_date varchar(45), in table_no int, in customer_id int)
@@ -26,7 +27,7 @@ end //
 delimiter ;
 
 call AddValidBooking("2022-10-13", 2, 1);
-call AddValidBooking("2022-10-15", 15, 2);
+call AddValidBooking("2022-10-17", 15, 2);
 
 -- select * from bookings;
 
