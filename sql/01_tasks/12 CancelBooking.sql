@@ -12,4 +12,4 @@ end //
 delimiter ;
 call CancelBooking(5);
 
-select * from bookings
+select * from bookings limit 6

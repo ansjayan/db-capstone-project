@@ -26,7 +26,7 @@ end //
 delimiter ;
 
 call AddValidBooking("2022-10-13", 2, 1);
-call AddValidBooking("2022-10-14", 2, 1);
+call AddValidBooking("2022-10-15", 15, 2);
 
 -- select * from bookings;
 

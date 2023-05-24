@@ -1,6 +1,6 @@
 use littlelemondb;
 
-prepare GetOrderDetail from 'select OrderiD, Quantity, Cost
+prepare GetOrderDetail from 'select CustomerID, OrderID, Quantity, Cost
 from orders
 where CustomerID = ?';
 

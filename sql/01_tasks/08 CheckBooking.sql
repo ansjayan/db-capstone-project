@@ -13,6 +13,6 @@ where (BookingDate = bookdate and TableNumber = tableno);
 end //
 
 delimiter ;
-call CheckBooking("2022-10-13", 2);
+call CheckBooking("2022-04-08", 11);
 
 -- select * from bookings;

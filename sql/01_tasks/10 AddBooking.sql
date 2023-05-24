@@ -15,4 +15,4 @@ where BookingID = bid;
 end //
 
 delimiter ;
-call AddBooking(10, 3, 4, "2022-12-30");
+call AddBooking(21002, 3, 4, "2022-12-31");
