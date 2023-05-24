@@ -1,6 +1,6 @@
 use littlelemondb;
 SET foreign_key_checks = 0;
-SET GLOBAL local_infile=1;
+
 
 
 truncate table bookings;
